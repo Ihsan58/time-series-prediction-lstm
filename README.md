@@ -12,6 +12,7 @@ Use lagged sequences to predict future values.
 API for Predictions:
 Flask-based REST API for real-time predictions.
 Accepts JSON input and returns model predictions.
+
 📂 Project Structure
 graphql
 Copy code
@@ -25,7 +26,8 @@ Copy code
 │   ├── lstm_model.h5              # Trained LSTM model
 │   ├── api.py                     # Flask API for predictions
 └── README.md                      # Project documentation
-📋 Prerequisites
+
+#📋 Prerequisites
 Before running the project, ensure you have the following installed:
 
 Python 3.8+
@@ -41,7 +43,8 @@ Install all dependencies using:
 bash
 Copy code
 pip install -r requirements.txt
-⚙️ Usage
+
+#⚙️ Usage
 1. Data Preprocessing
 Prepare the raw dataset for training:
 
@@ -91,18 +94,21 @@ Copy code
 {
   "prediction": [[1.23456], [1.34567]]
 }
-🛠️ Technologies Used
+
+#🛠️ Technologies Used
 Python: Core programming language.
 Pandas & NumPy: Data manipulation and feature engineering.
 Scikit-Learn: Data scaling and preprocessing.
 TensorFlow/Keras: LSTM model architecture and training.
 Flask: API deployment.
-🎯 Future Enhancements
+
+#🎯 Future Enhancements
 Add early stopping and validation during model training.
 Experiment with other architectures like GRU or Transformer.
 Deploy the API to a cloud platform (e.g., AWS, Heroku, or GCP).
 Integrate Docker for containerized deployment.
-📧 Contact
+
+#📧 Contact
 Ihsan Ul Haq
 Email: uihsan458@gmail.com
 GitHub: github.com/ihsan58
